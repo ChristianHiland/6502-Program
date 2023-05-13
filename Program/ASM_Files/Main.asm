@@ -1,8 +1,9 @@
+
     .org $8000
-reset:
+reset:      ; Starting the 6502 at address 8000
     lda #$ff
     sta $6002
-loop:
+loop:       ; Making the leds blick.
     lda #$55
     sta $6000
 
