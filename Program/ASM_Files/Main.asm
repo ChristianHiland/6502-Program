@@ -1,4 +1,3 @@
-
     .org $8000
 reset:      ; Starting the 6502 at address 8000
     lda #$ff
